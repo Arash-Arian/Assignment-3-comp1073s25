@@ -2,4 +2,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*a font suitable for star wars theme*/
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFD700;
+}
+h1{
+    font-size: 2rem;
+    color: #FFD700;
+    text-align: center;
+    margin-top: 20px;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    >thead{
+        background-color: #333;
+    }
+    >thead th{
+        padding: 10px;
+        text-align: left;
+        cursor: pointer;
+        user-select: none;
+    }
+    >tbody tr{
+        border-bottom: 1px solid #444;
+    }
+    >tbody tr:hover{
+        background-color: #555;
+        cursor: pointer;
+    }
+    >tbody td{
+        padding: 10px;
+        min-width: 200px;
+    }
 }
